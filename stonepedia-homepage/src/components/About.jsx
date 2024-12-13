@@ -1,6 +1,4 @@
 import React from "react";
-import background from "../assets/bg1.png";
-import { motion } from "framer-motion";
 import { FaCheckDouble } from "react-icons/fa6";
 import { MdContactEmergency } from "react-icons/md";
 import { IoIosContact } from "react-icons/io";
@@ -51,10 +49,7 @@ const About = () => {
   return (
     <div
       className="bg-cover bg-center relative py-5"
-      // style={{ backgroundImage: `url(${background})` }}
     >
-      {/* <div className="absolute inset-0 bg-gray-600 bg-opacity-50"></div> */}
-
       <div className="relative flex flex-col justify-center items-center text-center space-y-4 px-4">
         <p className="text-sm md:text-lg font-semibold text-yellow-400">
           REDEFINING STONE SOURCING

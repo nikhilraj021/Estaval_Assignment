@@ -1,12 +1,4 @@
 import React from "react";
-import { RiReactjsLine } from "react-icons/ri";
-import { IoLogoJavascript } from "react-icons/io5";
-import { SiTailwindcss } from "react-icons/si";
-import { IoLogoCss3 } from "react-icons/io5";
-import { IoLogoHtml5 } from "react-icons/io5";
-import { TbBrandNextjs } from "react-icons/tb";
-import { TbBrandNodejs } from "react-icons/tb";
-import { SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -23,48 +15,6 @@ const iconVariants = (duration) => ({
 });
 
 const Clients = () => {
-  //   const tech = [
-  //     {
-  //       id: 1,
-  //       icon: <IoLogoHtml5 />,
-  //       tone: "text-orange-400",
-  //     },
-  //     {
-  //       id: 2,
-  //       icon: <IoLogoCss3 />,
-  //       tone: "text-blue-400",
-  //     },
-  //     {
-  //       id: 3,
-  //       icon: <SiTailwindcss />,
-  //       tone: "text-sky-500",
-  //     },
-  //     {
-  //       id: 4,
-  //       icon: <IoLogoJavascript />,
-  //       tone: "text-yellow-500",
-  //     },
-  //     {
-  //       id: 5,
-  //       icon: <RiReactjsLine />,
-  //       tone: "text-cyan-500",
-  //     },
-  //     {
-  //       id: 6,
-  //       icon: <TbBrandNextjs />,
-  //       tone: "text-gray-300",
-  //     },
-  //     {
-  //       id: 7,
-  //       icon: <TbBrandNodejs />,
-  //       tone: "text-green-500",
-  //     },
-  //     {
-  //       id: 7,
-  //       icon: <SiMysql />,
-  //       tone: "text-orange-300",
-  //     },
-  //   ];
   return (
     <div className="pb-10 md:pb-16 bg-white md:py-4">
       <motion.h2

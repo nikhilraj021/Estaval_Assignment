@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client";
+
 import React from "react";
 import { ImArrowRight2 } from "react-icons/im";
 

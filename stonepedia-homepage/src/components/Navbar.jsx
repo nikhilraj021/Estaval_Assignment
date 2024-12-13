@@ -22,7 +22,6 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-[#1e293b] to-[#334155] p-5">
       <div className="container mx-auto flex items-center justify-between">
-        {/* Logo */}
         <a href="" className="w-40 lg:mx-10">
           <img
             src="https://stonepedia.in/wp-content/uploads/2024/10/logoo-1.png"
@@ -30,7 +29,6 @@ const Navbar = () => {
           />
         </a>
 
-        {/* Search Bar */}
         <div className="hidden md:flex flex-grow mx-4">
           <input
             type="text"
@@ -39,7 +37,6 @@ const Navbar = () => {
           />
         </div>
 
-        {/* Social Icons */}
         <div className="hidden md:flex gap-4 lg:gap-8 lg:mx-10">
           <span className="text-white bg-cyan-600 p-2 rounded-lg hover:bg-cyan-400 cursor-pointer transition-colors">
             <FaFacebookF size={20} />
@@ -55,7 +52,6 @@ const Navbar = () => {
           </span>
         </div>
 
-        {/* Hamburger Menu for Mobile */}
         <div className="md:hidden flex items-center">
           <button
             className="text-white text-3xl"
@@ -66,7 +62,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Desktop Menu */}
       <div className="hidden md:flex items-center justify-around text-white mt-2">
         <button className="bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-1 rounded-xl font-semibold hover:from-blue-500 hover:to-cyan-500 transition-all duration-300">
           Bestseller
@@ -82,7 +77,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="fixed flex flex-col justify-between top-0 right-0 h-full w-2/3 bg-gradient-to-b from-gray-800 to-gray-900 text-white space-y-3 p-6 z-50">
           <div>
@@ -122,7 +116,6 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* Modal for Login/Register */}
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-60 z-50">
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg p-5">
